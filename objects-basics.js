@@ -1,12 +1,4 @@
-/*
-=====================================================
- JavaScript Objects – Levels 1, 2, and 3
- File: objects-basics.js
-=====================================================
- You can place this file inside any folder and run it
- using: node objects-basics.js
-=====================================================
-*/
+
 
 // ================================
 // Level 1: Understanding Objects
@@ -108,9 +100,9 @@ for (let [key, value] of Object.entries(student)) {
 }
 
 
-// ================================
+
 // Level 3: Object Operations
-// ================================
+
 
 // Q14. Copying an object
 const originalObj = { a: 1, b: 2 };
@@ -153,8 +145,4 @@ console.log("Q19 Object to Array:", entriesArray);
 const backToObject = Object.fromEntries(entriesArray);
 console.log("Q20 Array to Object:", backToObject);
 
-/*
-=====================================================
- End of File
-=====================================================
-*/
+
